@@ -1,0 +1,51 @@
+/*DEFINED HTML */
+HTML, BODY {font-size:14px;height:100%;/*min-width:688px;*/}
+P, TD, TH {font-size:14px}
+TD > DIV {font-size:14px}
+BODY #bodyContent div.anchor:target {background-color: #FFFFCC; /* pseudo class target doesn't work for IE*/}
+B, STRONG {font-weight: bold;}
+EM, I {font-style: italic;}
+FORM {margin: 0px;padding:0px;}
+HR {margin:20px 0px 10px 0px;}
+H1 {color:#666; font-weight:normal;}
+/*H2 {background: url('../images/images_cec_common_2/graydots.gif') 0% 0% repeat-x;padding-top:10px;}*/
+HR + H2, HR + H3, DIV.horizontalgraydots + H2, DIV.horizontalgraydots + H3 {margin-top: 0px; /* added margin-top:0px for IE's inability to parse adjacent selectors in the css  */}
+H2 {background: url('../images/images_cec_common_2/graydots.gif') 0% 0% repeat-x;padding-top:10px;}
+H3 + UL {margin-top:-3px;}
+SELECT {margin-top: 2px; background: #FFFFFF;}
+OPTION {background: #FFFFFF; color: #000066; font-weight: normal;}
+INPUT[type="text"] {cursor:text}
+/*INPUT {cursor: text;} making the form buttons changed did something to the browsers, they no longer make the hand icon*/
+INPUT.buttonneu, INPUT.buttonneg, INPUT.buttonpos {cursor:pointer}
+SELECT.searchpulldown {width:170px;border:1px solid white;}
+UL {list-style: square outside url('../images/images_cec_common_2/bullet.gif'); font-weight: normal; text-decoration: none; margin:0px 0px 1.1em 2.5em; padding-left:0px; vertical-align:top;}
+OL {font-weight: normal; text-decoration: none; margin:0px 0px 1.1em 2.5em; padding-left:0px; vertical-align:text-bottom;}
+
+UL.noindent, OL.noindent {margin:0px 0px 1.1em 1em;}
+TH{ text-align:left;font-weight:bold;}
+TH.tablesection {background-color:#EAEBE9;padding-left:5px;}
+
+
+/*FONT OVERRIDE */
+* {font-family: Arial, Helvetica, sans-serif;}
+TD.modulecontent SELECT, SELECT + OPTION {font-size: 14px;}
+
+
+/* Font size declaration */
+.pagetitle, /*{font-size:25px;}*/
+H1, .pagetitleBkgrnd {font-size:24px /* 24px */}
+
+H2, .contenttitle, .contenttitlealt, .contenttitlerev, .pullquote {font-size:18px /* 16px , x-large*/} 
+
+H3, .contentheader, .contentheaderalt, .contentheaderrev, .contentheaderrevlink{font-size:16px /* 14px , large*/} 
+ #hiLightHeader, .leadstory, .subhead, .subheadgray, .subheadlightgray, H2.blue, H2.yellow, H2.green, H2.gray, .BCHeaderText{font-size:15px}
+
+H4, H5, .content, .contentlabelalt, .contentnoteheader, .contentlist,  .numberlist, .bulletlist, .formlist, .tabcoloron, .tabcoloroff, .reltitle, .relheader, .module, a.moduletitlerevlink:hover, .moduletitlerev,  .moduletitlerevlink, .modulefeaturetitle, .modulefeaturetitlelink, #relatedtitle, .popularitemtitle, .subhead2, .subhead2gray, orgnavheading, .tabletitle, H3.blue, H3.green, H3.gray, H3.black {font-size:14px /* 12px, small */} 
+
+SELECT, OPTION, INPUT, TEXTAREA, .newsbackgroundfilter, .newsbackground, .onthispagelist, .modulecontentlist, .modulecontentrev, .modulecontentrevlink, .modulecontentboldlink, .modulecontent, #featureExecInfo, .hinav_element, .hinav_link, .hinav_selected_text, .newsbackground, .selected, .relatedlist, #relateditems UL LI, #announcements UL LI, #additionalitems UL LI, .navTabTitle, .mynavlist, .newslist, .newslistingdatemodule, .newslistingcontentmodule,  DIV.module DIV.newslisting DIV.newslistingdate,  DIV.module DIV.newslisting DIV.newslistingcontent, .tablecontent, .tablesection, .topicnav, .navTopic,.navTopicDegraded, UL#degradednav li a, .myNavFolder,.mynavlink, .byline, .execPicture, .hinav_type, #mycMore, .applicationTabActive, .applicationTabInactive, .newsmoresubmit, .orgtitle, #alertBlueContent, #alertRedContent, #relateditems .subhead2gray, DIV.timezone	.subhead2gray, DIV.timezonelast .subhead2gray, #pullbulletlist UL.noindent, #custsat, #toolkitFont, #pollitem .module, #feedback .module  {font-size:13px /*11px, x-small */}
+
+ .toolslinks, .toolsinactive, a.toolslinks, a.toolsinactive, .caption, .captionmovie, .captionflash, .smalltextgray, .smalltext, .internal, #footertext, a.footertext, .utilitynav, a.utilitynav,  .topicdescription {font-size:12px /* 10px , xx-small*/}
+
+/*bug fix for IE , fixes problems with links when a class is applied to an a href */
+.ie_fix a { text-decoration: none; } 
+

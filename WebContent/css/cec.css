@@ -1,0 +1,285 @@
+HTML, BODY {margin: 0px; padding: 0px; background:#FFF url('') repeat-y; font-family: Arial, Helvetica, sans-serif; }
+P, OL, UL, TD {font-family: Arial, Helvetica, sans-serif;}
+TD>DIV {font-family: Arial, Helvetica, sans-serif;}
+A {color: #039;}
+A:link {color: #039;text-decoration:underline;}
+A:visited, A:visited:hover { text-decoration: underline;  color: #8B008B;}
+A:hover {color: #039; text-decoration:underline;}
+A:active {color: #039; text-decoration: underline;}
+	
+.invisible {visibility: visible; position:absolute; top:-20px;} 
+.skiplink {visibility:visible;}
+
+/* Reverse font color */
+#footertext, A.footertext, A.footertext:hover, A.footertext:visited, .utilitynav, A.utilitynav, A.utilitynav:link, A.utilitynav:hover, A.utilitynav:visited, .topicnav, A.topicnav:link, A.topicnav:hover, A.topicnav:visited, .tabcoloron, .tabcoloroff, .contentheaderrev, .contenttitlerev, A.contenttitlerev, A.contentheaderrev, .BCHeaderText, H2.yellow, H2.blue, H2.green, H2.gray, H3.green, H3.blue, H3.gray, H3.black, .moduletitlerev, A.moduletitlerev, .modulecontentrev, A.modulecontentrev, .tablecontentrev, A.tablecontentrev, .tabletitlerev, .tabletitle, .secondarynavrev {color:#FFF;}
+
+A.internal,A.internal:link {color: #666; text-decoration:none;}
+A.internal:hover {color: #666; text-decoration:underline;}
+A.internal:visited {color: #666; text-decoration:none;}
+
+.alert  {color: #900;}
+
+P.retop {display:block;font-variant:small-caps; clear:both; margin:10px 0px 10px 0px}
+P.retop DIV.horizontalgraydots {height:3px}
+.more {padding:0px 0px 0px 0px;margin-top:6px;}
+.smalltext, .tablecaption, .button, .modulecaption, .code, .caption {color:#000;  text-decoration: none;}
+.code, CODE {font-family: "Courier New", Courier, mono}
+.horizontalgraydots {height:15px; background: url('../images/graydots.gif') 50% 50% repeat-x;padding:0px; margin:0px; border:0px solid black; clear:both;}
+.hinavdots {height:15px; background: url('../images/images_cec_common_2/9cfdots.gif') 50% 50% repeat-x; margin:0px 10px 0px 10px; padding:0px;}
+/*.verticallinecolumn {height:100%;width:10px; padding:5px 0px 5px 0px;}*/
+.verticaldotsblue, .verticaldotsgray {background: url('../images/images_cec_common_2/bluedots.gif') 50% 50% repeat-y; height:100%; width:15px; margin:10px 0px 10px 0px;}
+.verticaldotsgray {background: url('../images/images_cec_common_2/graydots.gif') repeat-y;}
+.nospacing {padding:0px;margin:0px;}
+
+p.example{font-family:Courier New, Courier, mono; color:#f00;border:1px solid #F00;font-weight:bold;width:200px;text-align:center;}
+
+
+/* NAVIGATION CLASSES */
+.navTabTitle {font-weight:bold;padding:0px 10px 0px 10px;margin:0px;text-decoration:none;background-color:#FC6}
+
+/*degraded Hinav classes for list implementation */
+UL#degradednav {list-style:none; margin: 5px 0px 0px 0px; padding: 0px;	border: none; width:200px; background:#369;}
+UL#degradednav li {padding:0px;margin:0px;}
+UL#degradednav li a, UL#degradednav li a:hover {display:block;	padding:2px 10px 3px 10px; margin:0px; background-color:#369;	color:#fff;	text-decoration:none;	width:100%;	font-family:Arial, Helvetica, sans-serif;}
+	html>body UL#degradednav li a, 	html>body UL#degradednav li a:hover {
+		width: auto;
+		}
+A.navTopicDegraded:link, A.navTopicDegraded:visited, A.navTopicDegraded:hover {color:#FFF;text-decoration:none;width:100%;display:block; padding:5px 0px 1px 0px; margin:0px;background:#369;}
+
+/* for css rollover */
+  #topics a{color:#FFF;text-decoration:none;font-size:11px;font-weight:bold;}
+		#topics a:hover{color:#036;text-decoration:none;font-size:11px;font-weight:bold}
+/*		.navTopic:hover, navTopicFlyout:hover {z-index:6;}
+		.navTopic2:hover, navTopicFlyout2:hover {z-index:10;} */
+		A.navTopic, A.navTopicFlyout, A.navTopic:visited, A.navTopicFlyout:visited, A.navTopic2, A.navTopicFlyout2, A.navTopic2:visited, A.navTopicFlyout2:visited {color:#FFF;text-decoration:none;}
+		A.navTopic, A.navTopic:visited, A.navTopic:visited:hover, A.navTopic:hover, A.navTopicFlyout, A.navTopicFlyout:visited,		A.navTopicFlyout:hover, A.navTopicFlyout:visited:hover, A.navTopic2, A.navTopic2:visited, A.navTopic2:visited:hover, A.navTopic2:hover, A.navTopicFlyout2, A.navTopicFlyout2:visited,		A.navTopicFlyout2:hover, A.navTopicFlyout2:visited:hover {width:100%;display:block; padding:2px 0px 3px 0px; margin:0px;}
+  A.navTopic2, A.navTopic2:visited, A.navTopic2:visited:hover, A.navTopic2:hover, A.navTopicFlyout2, A.navTopicFlyout2:visited,		A.navTopicFlyout2:hover, A.navTopicFlyout2:visited:hover {padding:2px 0px 3px 0px;}
+		A.navTopic, A.navTopic:visited, A.navTopic2, A.navTopic2:visited {background:#369 /*url('../images/images_cec_common_2/69cdots.gif') 0% 100% repeat-x;*/}
+		A.navTopic:hover, A.navTopic:visited:hover, A.navTopic2:hover, A.navTopic2:visited:hover {background:#9cf;color:#036;}
+/*Navigation entries with flyout menus */
+		A.navTopicFlyout, A.navTopicFlyout:visited, 	A.navTopicFlyout2, A.navTopicFlyout2:visited {background:#369 url('../images/images_cec_common_2/flyout_arrow_off.gif') 185px 50% no-repeat;}
+		A.navTopicFlyout:hover, A.navTopicFlyout:visited:hover, A.navTopicFlyout2:hover, A.navTopicFlyout2:visited:hover {background:#9cf url('../images/images_cec_common_2/flyout_arrow_on.gif') 185px 50% no-repeat;color:#036;}
+/*Navigation entries with children */
+		A.expand, A.expand:visited {width:164px;display:block; padding:2px 0px 2px 34px; margin:0px;background:#369 url('../images/images_cec_common_2/active_plus_color.gif') left center no-repeat;}
+		A.expand:hover, A.expand:visited:hover {width:164px;display:block; padding:2px 0px 2px 34px; margin:0px;background:#9cf url('../images/images_cec_common_2/active_plus_color.gif') left center no-repeat;}
+	/* end css rolloever */
+	
+
+
+.localnavbackground {background-color: #369;}
+
+A.utilitynav, A.utilitynav:link {text-decoration: none;}
+A.utilitynav:hover {text-decoration: underline;}
+A.utilitynav:visited {text-decoration: none;}
+A.utilitynav:visited:hover {text-decoration: underline;}
+.topicnav {font-weight: bold;  font-family:arial; text-decoration: none; }
+ A.topicnav, A.topicnav:link {font-weight: bold;  font-family:arial; text-decoration: none; }
+ A.topicnav:hover {font-weight: bold; font-family:arial;text-decoration: none;}
+ A.topicnav:visited {font-weight: bold;   font-family:arial; text-decoration: none;}
+.topic  {position: relative; top:0px; left:0px; margin-bottom:3px; padding:2px 0px 2px 0px;}
+.site  {position: relative; top:0px; left:0px; width:200px;margin:0px 0px 1px 0px; padding:0px;}
+
+.topicdescription  {width:auto; margin-left:10px;color: #FFF; font-weight: normal;  text-decoration: none;padding-right:5px;}
+.topiccontent {margin-left:10px;}
+
+.hinav {background-color: #369;}
+.hinav_element_no_line, .hinav_element, .hinav_element_ancestor {color: #fff; padding:2px 0px 1px 0px;}
+ .hinav_element_ancestor {position:relative; z-index:100;}
+.hinav_element {background: url('../images/images_cec_common_2/69cdots.gif') left top repeat-x;}
+.hinav_link {color:#FFF;}
+ A.hinav_link, A.hinav_link:link {width:100%;text-decoration: none; color: #fff;/*display:block;background: url('../images/images_cec_common_2/69cdots.gif') 0% 100% repeat-x;*/}
+ A.hinav_link:visited {text-decoration: none; color: #fff;} 
+ A.hinav_link:hover {text-decoration: none; color: #fff;}
+.hinav_ancestor_flyout_container  {border-style: solid; border-width: 2px; border-color: #9CF; background-color: #369; padding-top: 3px; padding-bottom: 5px;}
+.hinav_ancestor_rule  {background-color: #69C;}
+.hinav_selected {background-color: #fff; padding:3px 0px 1px 0px;}
+.hinav_selected_text {color: #000;}
+.hinav_type {color: #ccc;text-decoration:none;}
+.hinavicon {margin:3px 0px 3px 0px;}
+A.myNavFolder, .myNavFolder{color:#000;margin:10px 3px 0px 9px; font-weight:bold;display:block;text-decoration:none;}
+			A.mynavlink, A.mynavlink:link{text-decoration:none;}
+			A.mynavlink:visited{text-decoration:none;}
+			A.mynavlink:hover{text-decoration:underline;}
+			.mynavfoldertitle{padding: 0px 0px 0px 5px}
+			/*A.mynavfoldertitle{color:#666; font-weight:bold;padding: 0px 0px 0px 5px; text-decoration:none}
+			A.mynavfoldertitle:hover{color:#666; font-weight:bold;padding: 0px 0px 0px 5px; text-decoration:underline}	*/		
+.tabcoloron {background-color: #036;   font-weight: bold; color:#FFF; text-decoration:none;}
+.tabcoloroff {background-color: #6498C1;   font-weight: normal; color:#FFF; text-decoration:none;}
+A.tabcoloroff {color:#FFF; text-decoration:none;}
+A.tabcoloroff:visited {color:#FFF; text-decoration:none;}
+A.tabcoloroff:hover {color:#FFF; text-decoration:none;}
+
+
+
+/* TOOLKIT CLASSES  9px */
+.toolslinks, A.toolslinks, A.toolslinks:link, A.toolslinks:visited {color:#036; text-decoration:none;}
+A.toolslinks:hover, A.toolslinks:visited:hover { color:#036; text-decoration:underline;}
+.toolsinactive, A.toolsinactive, A.toolsinactive:link, A.toolsinactive:visited, A.toolsinactive:hover {color: #999999; text-decoration: none;}
+#toolkitfeedback {color: #c00; font-weight:normal;}
+
+
+/* OPTIONAL ITEM STYLES  11px */
+.relheader {padding: 2px 0px 1px 0px; color: #000; font-weight: bold;  text-decoration: none;}
+.reltitle {color: #666; text-decoration: none;}
+.relboldlink {color: #039; font-weight: bold; text-decoration: underline;}
+
+
+
+/* PAGE BODY STYLES  12px */
+A.orgtitle:link, A.orgtitle:visited, A.orgtitle:hover, A.orgtitle:visited:hover, .orgtitle {color: #666; font-weight: normal; font-variant: normal; padding-top:8px;margin:0px;text-decoration:none}
+.pagetitle {color:#666; padding:2px 0px 4px 0px;margin:0px;line-height:70%;z-index:2;}
+.first {margin-top:0px;padding-top:0px;}
+H2.first {background:none;}
+H2.overlap {margin-right:215px;}
+.buttonlink { text-decoration: underline;}
+H2, .contenttitle {font-weight: bolder; text-decoration: none;}
+/* H2 {z-index:-1;}*/
+.contenttitlealt {color: #039;  font-weight: bolder; text-decoration: none;}
+.contenttitlerev {  font-weight: bold; text-decoration: none;}
+H3, .contentheaderalt, .contentheader {color: #039; margin-bottom: 5px; margin-top: 15px;  font-weight: bold; text-decoration: none;}
+.contentheader, H3 {color:#000;}
+A.contentheaderalt:visited, A.contentheader:visited {color:#039;}
+.module {padding:0px 10px 0px 10px; margin:0px;vertical-align:top;}
+.content {font-weight: normal;}
+.contentbold {font-weight: bold;}
+p.metrics {margin:6px 0px 0px 0px;padding:0px;}
+.contentlabelalt {color: #369; background-color:#FFF; text-decoration: none;}
+.contentnoteheader {color: #900; font-weight: bold; text-decoration: none;}
+LI, .listitem {margin-top: 5px; margin-bottom: 0.01px; font-weight: normal; text-decoration: none;}
+
+.subhead {padding:10px 0px 10px 0px; margin:0px; color:#000;} /* should padding-top be 10 or 0 */
+h3 + p, h3 + p.subhead2 {margin-top:0px;padding-top:0px;} /*doesn't work in IE only mozilla browsers*/
+
+.subhead2, H4, .orgnavheading {color: #000; padding:5px 0px 0px 0px; font-weight:bold; margin:0px; }
+DIV.tableholder + H4 {padding-top:10px} /*doesn't work in IE only mozilla browsers*/
+.subhead2 + p, .orgnavheading + p {margin-top:0px;} /*doesn't work in IE only mozilla browsers*/
+
+div.BCheader + .subhead2{padding-top:0px;} /*doesn't work in IE only mozilla browsers*/
+.contentlist + H4 {padding-top:6px;} /*doesn't work in IE only mozilla browsers*/
+.subhead2gray {color: #666; padding:4px 0px 0px 0px;font-weight:bold;}
+.subhead2lightgray {color: #ccc; padding:0px 0px 4px 0px;font-weight:bold;}
+
+.grayout {color: #999;}
+
+/* MODULE STYLES  11px */
+
+A.moduletitlerevlink:hover { font-weight: bold;padding: 0px 0px 0px 10px;text-decoration: underline;}
+.moduletitlerev, A.moduletitlerev {padding:2px 0px 2px 10px; text-decoration:none; font-weight:bold;width:auto;}
+.modulefeaturetitle {color: #9CC; font-weight: bold;  text-decoration: none;}
+.modulefeaturetitlelink {color: #9CC; font-weight: bold;  text-decoration: underline;}
+.modulecontentrev { font-weight: normal;  text-decoration: none;}
+.modulecontentboldlink {color: #039; font-weight: bold;  text-decoration: underline;}
+
+
+
+
+/* FORM CLASSES  11px  only background-color and color should need to be spec'd but IE doesn't do well with css selectors */
+/*classes for dark blue and light blue GO buttons */
+#directoryGo, #searchGo, .darkbluego {background:#9cf url('../images/images_cec_common_2/bevel_tl_1.gif') left top no-repeat; width:auto; padding:2px 0px 0px 2px; margin-left:5px; border-top:1px solid #9cf; border-left:1px solid #9cf; border-bottom:2px solid #336; border-right:2px solid #336; vertical-align: top; cursor:pointer; font-weight: normal;}
+
+INPUT.buttonpos{ background: #fc0 url('../images/images_cec_common_2/bevel_tl_1.gif') left top no-repeat; width:auto; padding:3px 3px 2px 4px; margin:0px 0px 0px 5px; border-top:1px solid #fc0; border-left:1px solid #fc0; border-bottom:2px solid #c60; border-right:2px solid #c60; text-align:center;}
+INPUT.buttonneu, INPUT.buttonneg {background: #ccc url('../images/images_cec_common_2/bevel_tl_1.gif') left top no-repeat; width:auto; padding:3px 3px 2px 4px; margin:0px 0px 0px 5px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:2px solid #666; border-right:2px solid #666; text-align:center;}
+
+IMG.required {position: relative; margin-left:-10px; width:5px; margin-right:5px;height:5px;background:url('../images/required.gif') top left no-repeat;}
+
+/* LIST FORMATS */
+.relatedlist {margin: 2px 0px 4px 0px; font-weight: normal;  text-align: left;}
+UL.contentlist {list-style:none outside none;margin:0px 0px 1.1em .1em;color:#000;}
+UL.contentlist LI, P.contentlist, LI.indexlist {margin: 3px 0px 5px 0px; color: #000;}
+.modulecontentlist {margin:  0px 0px 3px 0px; font-weight: normal; text-decoration: none;}
+.modulebulletlist {margin: 0px 0px 0.01px 9px; font-size: 100%; text-indent: -7px;}
+.mynavlist {margin: 3px 0px 0px 30px; font-weight: normal;  text-align: left;}
+.numberlist, .bulletlist, .formlist {margin: 5px 0px 0.01px 9px; text-indent: -9px;}
+P.onthispagelist {margin: 5px 0px 0.01px 18px;  font-weight: normal; text-indent: -10px;} /*not used anymore */
+UL.anchorlist, UL.onthispagelist, #onThisPage UL, #onThisPage_RC UL {list-style:none outside url('../images/icon_anchor.gif'); margin:0px 0px 1.1em 1em;}
+UL.onthispagelist{margin:0px 0px /*.8 if the fix works in 2.1 I'll remove this forever*/0em 2.3em;}
+
+
+/* TABLE STYLES 11px */
+.tableholder{width:auto; display:block;padding:0px;margin:0px 0px 10px 0px;}
+.tabletitle {background-color: #999; padding:2px 0px 2px 10px; text-decoration:none; font-weight:bold;width:auto;}
+.tablecolumn{font-weight:bold}
+.tablecontent, table.tablecolor table.tablecolor tr {background-color:#fff; font-weight: normal;  text-decoration: none;}
+table.tablecolor table.tablecolor td.tablecolumn {background-color:#FFF; font-weight: bold;  text-decoration: none;}
+.tablecolor {background-color: #999;}
+
+.tabledescription{background-color: #EAEBE9;}
+/* test to see if the above statement can replace the tablecontent class 
+.tablecontent {text-decoration: none;}
+*/
+.tablefeaturetitlelink {color: #9CC; font-weight: bold; text-decoration: underline;}
+.tablecontentsorted {color: #000; background-color: #DCDCDC; font-weight: normal; text-decoration: none;}
+.tablecontentrev{ text-decoration: underline;}
+
+.tabledescription {color: #000; font-weight: normal; text-decoration: none;}
+.tabletitlerev { font-weight: bold; text-decoration: none;}
+.tablefeaturetitle {color: #9CC; font-weight: bold; text-decoration: none;}
+
+
+.alertheader, .statusheaderalt {color: #900; font-weight: bold; text-decoration: none;}
+
+.tabletitle, .messagealt, .messageheaderalt {font-weight: bold; text-decoration: none;}
+.appsbuttontop, .appstablecolorsecondary{background-color: #9CC;}
+.appsbuttonbtm, .appsnavlinecolor{background-color: #006;}
+.modulecolumn, .statusheader, .messageheader, .tablesubhead {color: #369; font-weight: bold; text-decoration: none;}
+.appnavbuttoninactive { text-decoration: none;}
+.tablecontentlink, .appnavlink, .applink, .rellink, .contentlabellink {color: #039; text-decoration: underline;}
+.appsnavcolorsecondary, .appstablecolortertiary, .appsbuttonnext {background-color: #CCC;}
+.utilitynavbackground, .componentheader, .appstablecolor, .appstablecolornav, .appstablecoloralt, .appstableheader, .appsbuttonprev, .searchbackground, .appsnavbordercolor {background-color: #369}
+
+
+/* Business Functions and TG classes for Widget */
+.index_tab_cell_inside_on {height:100%; background-color:#FFFFFF;}
+.alpha_letter_on {font-weight:bold; color:#000; text-decoration:none}
+A.alpha_letter_on:link {font-weight:bold; color:#000; text-decoration:none}
+A.alpha_letter_on:visited {font-weight:bold; color:#036; text-decoration:none}
+A.alpha_letter_on:hover {font-weight:bold; color:#000; text-decoration:none}
+
+.index_tab_cell_on {color:#000000; font-weight:bold; text-decoration:none}
+A.index_tab_cell_on:link {color:#000000; font-weight:bold; text-decoration:none}
+A.index_tab_cell_on:visited {color:#000000; font-weight:bold; text-decoration:none}
+A.index_tab_cell_on:hover {color:#000000; font-weight:bold; text-decoration:none}
+
+.alpha_letter_off {font-weight:normal; color:#036; text-decoration:none}
+A.alpha_letter_off:link {font-weight:normal; color:#036; text-decoration:none}
+A.alpha_letter_off:visited{text-decoration:none; color:#036; font-weight:normal;}
+A.alpha_letter_off:hover{text-decoration:underline; color:#036; font-weight:normal;}
+
+A.index_tab_cell_off {color:#036; text-decoration:none;font-weight:bold;}
+A.index_tab_cell_off:visited {color:#036; text-decoration:none;font-weight:bold;}
+A.index_tab_cell_off:hover {color:#036; text-decoration:underline;font-weight:bold;}
+
+/* news classes */
+.newslist {list-style:none url('../images/images_cec_common_2/bullet.gif') outside; padding:0px; margin:0px 0px 0px 12px;}
+.newslistitem {margin:0px 0px 5px 0px;}
+.newsbackground {background-color: #DDE4F2; padding:4px 10px 4px 10px;}
+.newsbackgroundfilter {background-color: #BCCDFA; padding:3px 10px 3px 10px; margin-bottom:10px;}
+.newslisting {position:relative;margin:0px 0px 6px 0px; padding:0px; width:auto;}
+.newslistingdatemodule {position:absolute; left:0px; top:0px; margin:0px; padding:0px; width:50px; }
+.newslistingcontentmodule_picture,  .newslistingcontentmodule {position:relative; left:0px; margin:0px;padding:0px 0px 0px 50px;}
+.newslistingcontentmodule_picture, DIV.newslisting DIV#pictureOne, DIV.newslisting DIV#pictureTwo {background-position:top right; background-repeat:no-repeat; padding-right:70px;min-height:65px;}
+
+
+.newslistingdate {position:absolute; left:0px; top:0px; margin:0px;padding:0px; padding-right:5px;width:90px;}
+.newslistingcontent {position:relative; left:0px; top:0px; margin:0px; margin:0px;padding:0px 0px 0px 85px;}
+.newslistingdate, .byline, .smalltextgray {color: #666;}
+ DIV.module DIV.newslistingdate, DIV.newsbackground DIV.newslistingdate {color:#000;}
+
+/* Application classes */
+
+/*http://wwwin.cisco.com/cec/common_2/i/secondary_activetab_bkgrnd.gif---addded for modification*/
+/* Secondary level app tabs
+#secondaryAppNavigation {position:relative; height:23px; border-bottom:2px solid #000; width:100%; padding:0px 10px 0px 10px; margin:10px 0px 10px 0px;z-index:2;}
+#secondaryAppNavigation A {border-left:1px solid #000;background-color:#FFF;}
+#secondaryAppNavigation A.activeTab, #secondaryAppNavigation A.activeTab:link {display:block; float:left; white-space:nowrap; background:#FFF url('../images/images_cec_common_2/secondary_activetab_bkgrnd.gif') right top no-repeat;color:#000; padding:3px 10px 3px 10px; text-decoration:none;height:18px;font-weight:bold;z-index:3;border-left:2px solid #000;border-bottom:2px dotted #FFF;margin-bottom:-1px;}
+#secondaryAppNavigation A.inactiveTab, #secondaryAppNavigation A.inactiveTab:link  {display:block; float:left; white-space:nowrap; background:url('../images/images_cec_common_2/secondary_tab_bkgrnd.gif') right top no-repeat; padding:3px 10px 2px 10px; text-decoration:none;height:17px;z-index:1;color:#039;}
+#secondaryAppNavigation A.inactiveTab:visited , #secondaryAppNavigation A.inactiveTab:visited:hover {display:block; float:left; white-space:nowrap; background:url('../images/images_cec_common_2/secondary_tab_bkgrnd.gif') right top no-repeat; padding:3px 10px 2px 10px; text-decoration:none;height:17px;z-index:1;color:#039;}
+#secondaryAppNavigation A.inactiveTab:hover {display:block; float:left; white-space:nowrap; background:url('../images/images_cec_common_2/secondary_activetab_bkgrnd.gif') right top no-repeat;color:#000; padding:3px 10px 3px 10px; text-decoration:none;height:17px;font-weight:bold; border-bottom:1px solid #FFF;z-index:3;border-left:2px solid #000}
+#secondaryAppNavigation A.disabledTab, #secondaryAppNavigation A.disabledTab:hover {display:block; float:left; white-space:nowrap; background:url('../images/images_cec_common_2/secondary_disabledtab_bkgrnd.gif') right top no-repeat;color:#666; padding:3px 10px 2px 10px;text-decoration:none;height:17px;z-index:1}
+
+A.secondaryNavActive:link, A.secondaryNavActive:active, A.secondaryNavActive:visited, A.secondaryNavActive:hover,
+A.secondaryNavActive:visited:hover {color:#000; font-weight:bold; text-decoration:none; font-size:110%; cursor:default;} */
+
+
+
+.flashmovie, .flyoutHide {visibility:visibile}

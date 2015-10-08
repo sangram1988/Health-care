@@ -1,0 +1,88 @@
+/* CSS Document */
+/* HEADER */
+#webdevCommunications {visibility:visible; position:relative;background-color:#CCC;display:none;left:215px;padding:10px;margin-bottom:5px;/* do not publish this to prod, need to find a way to keep this on dev */}
+
+
+#header{width:100%; z-index:10;min-width:800px; clear:both;}
+	/* Utility Bar */
+	#HutilityBar{position:relative;margin-left:0px; padding:0px; background-color:#369;min-width:800px;width:100%;height:25px;z-index:2;overflow:hidden;}
+		#internaluseonly{position:absolute; top:0px; left:200px; height:25px; width:17%; max-width:19%; min-width:130px;margin:0px;z-index:20;background:#FFF url('../images/utility-ticks.gif') 50% 0% repeat-x;line-height:1.1;}
+			#internaluseonlytext {position:relative;padding-left:15px;padding-right:30px;top:12px;border-bottom:1px solid white;white-space:nowrap;line-height:1.1;}
+		#HutilityBarText{float:right;margin:0px; padding:2px 16px 0px 0px;z-index:4;height:25px;white-space:nowrap;}
+		#closewindow{display: none; visibility:hidden;}			
+	
+		#HsectionTitle{	margin:0px 0px 0px 215px; padding:0px; min-width:550px; background-position:right top; background-repeat:no-repeat;} 
+		 #titles{padding:0px; margin:0px 220px 0px 0px; background: url('../images/graydots.gif') 0% 100% repeat-x; position:relative; /* width:555px;*/z-index:5}
+		 #pagetitle {position:relative; margin-right:0px;}
+/***** BEGIN for cci logged in pages ******/
+		 #titlesLI {padding:0px; margin:0px 400px 0px 0px; background: url('../images/graydots.gif') 0% 100% repeat-x; position:relative; /* width:555px;*/z-index:5;}
+		 #titlesLI #pagetitle {position:relative; margin-right:-100px;}	
+/***** END for cci logged in pages ******/			
+   #toolkit, #toolkitLI {float:right; height:12px; margin:-12px 0px 0px 555px; background: url('../images/toolkit_border.gif') left top no-repeat; z-index:50; }
+			.toolkit {z-index:50;  width:220px;}
+			.toolkitLI {z-index:50; width:400px;}
+				#toolkittext {position:relative; margin:3px 15px 0px 9px; padding:0px; height:15; z-index:10; }
+					#toolkitIcons {visibility:hidden; z-index:20;}
+							#toolkitIconsDisabled {visibility:hidden; display:none;}
+					#toolkitMessage {position:absolute; top:-17px; right:0px; margin-left:9px; height:16px; border:1px solid #efefef; border-bottom:0px; width:97px; clear:both;}
+     #toolkitFont {position:absolute; top:13px; right:0px; border:1px solid #666; border-top:0px; width:150px; clear:both; background-color:#FFF; padding-top:10px;height:70px;z-index:10;}
+						#toolkitFont FORM INPUT{cursor:pointer}						
+
+
+
+/*LEFT COLUMN*/
+#leftColumn{position:absolute;top:0px; left:0px;margin:0px;padding:0px; width:200px;z-index:50;border:0px solid red;}
+ #logo {height:75px; background-color:#FFF; width:200px;}
+	#LCsearch {position:relative;width:200px;left:0px;top:0px; margin:0px; background-color:#69C; padding-bottom:0px;z-index:2;overflow:hidden;}
+	.search_off {height:38px;}
+		.search_on {height:70px;}
+		TD#searchoptions SELECT {width:170px;}
+ #LCnavigation {position:relative;left:0px;width:200px;margin:0px;z-index:101;padding:0px;background-color:#369;border:0px solid yellow}
+	#LChinav {position:relative;left:0px;top:0px;width:200px;margin:0px;background-color:#369;z-index:100;border:0px solid red}
+	#LCmyNav {position:absolute;left:0px;top:0px;width:200px;margin:0px; padding:0px; visibility:hidden; background-color:#F5F5DC;}
+ #belowHinav {position:static; left:0px; top:0px; visibility:visible; /*background-color:#FFF;*/ padding-bottom:20px; padding-top:8px;z-index:200; line-height:1.1; border:0px solid red; width:200px;}
+	   #leftColumn FORM {position:relative; top:0px; left:0px;z-index:100; width:200px; overflow:hidden; border:0px solid black;}
+    #leftColumn #belowHinav SELECT {max-width:178px;}
+				    	#leftColumn #belowHinav INPUT.buttonpos, #leftColumn #belowHinav INPUT.buttonneu, #leftColumn #belowHinav INPUT.buttonneg {width:auto;}
+			/*TOPIC NAVIGATION*/
+					#hinavHolder{width:200px; position:relative;z-index:100; padding-top:3px;border:0px solid green;}												
+			/*MYLINKS NAVIGATION*/
+					#myNavHolder{width:200px;visibility:hidden; margin-top:0px; padding:0px;}
+								#defaultMyLinksHolder {background-image:none;background-color:#F5F5DC;border:0px;width:100%;height:575px;z-index:5; overflow:hidden;}
+								#defaultMyLinks{width:100%;z-index:6;background-color:#F5F5DC;position:relative;}
+							#myNavEdit {position:absolute; left:160px; top:10px;width:25px;background:#FFFFFF; padding:1px 0px 0px 2px;border:1px solid #F5F5DC;} 
+						#myNavLinks{background:#F5F5DC;margin:0px;padding-bottom:5px;}
+/*HINAV NAVIGATION*/						
+		.hinav {position:relative; z-index:200;}
+		.hinav_element {position:relative;z-index:200;}
+		.hinav_ancestor_flyout_container  {position:absolute; left: 196px; top: 0px; width: 204px; z-index:250; visibility: hidden}
+		.hinav_ancestor_rule  {position:relative; height: 1px; width: 200px}
+		.hinav_selected {position:relative}
+		.hinav_type {margin-top: 12px; margin-bottom: 3px}
+
+/* CENTER COLUMN */
+.spacer {clear:both; width:auto;height:1px;position:relative;margin:0px;padding:0px;overflow:hidden;}
+
+#centerColumn{position:relative; margin:20px 0px 0px 215px;z-index:2;padding:0px;} /*margin top depends on height of header div - */
+	#bodyContentWrapper{position:relative;}
+	#bodyContent{position:relative; top:0px; left:0px; padding-right:16px; margin:0px; z-index:2; min-width:450px;border:0px solid red; min-height:1%;}
+	.bodycontentfix, #bodycontentfix {visibility:visible; display:inline;border:0px solid red; height:1px; width:1px;overflow:hidden;font-size:1px;float:right;}
+
+
+/* FOOTER */
+#footer{background-color:#369; height:40px;margin-top:20px;padding:5px 0px 0px 0px;z-index:1;width:100%; position:relative;visibility:hidden;clear:both;}
+ #footertext{position:relative;left:215px; top:5px; text-decoration: none;width:60%;}
+ #footertext>a:link{padding-left:0px;text-decoration: underline;}
+ A#footercontact {color:#FFF;text-decoration:none;}
+	#footerTimeDivSuck {visibility:hidden;display:none;}
+
+
+/* Business Functions and TG */
+#tabs{background-color:#FFF;}
+/* http://wwwin.cisco.com/cec/common_2/images/blue_bar_bftg.gif*/
+#box{border:1px solid #ccc; border-top:2px solid #ccc;width:99%; background: url('../images/images_cec_common_2/blue_bar_bftg.gif') repeat-y;background-position:left;min-height:600px;}
+	#orgHolder{ width:60%; margin:5px 15px 10px 210px;}
+	#selectionTabs{width:200px; background-color:#ccc; float:left; height:100%}
+		#category_tab_cell_text{ padding:8px 0px 8px 5px; height:20px; border-bottom: 1px solid #FFF;}
+		#keyword_tab_cell_text{ height:40px;padding:8px 0px 8px 5px;}
+		#alphabet_tab_cell_text{ padding:8px 0px 8px 5px; height:125px;border-top: 1px solid #FFF;}

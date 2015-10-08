@@ -1,0 +1,27 @@
+/*@import url("http://wwwin.cisco.com/cec/framework/2.2.2/c/cec_freetext.css");
+PRINTING CHANGES*/
+BODY #centerColumn {font-family:Times New Roman, Times, serif;margin:0px 0px 0px 15px;}
+* {font-family:Times New Roman, Times, serif}
+p, ol, ul, td {font-family:Times New Roman, Times, serif}
+td>div {font-family:Times New Roman, Times, serif}
+#HsectionTitle{margin:0px;padding:5px 0px 1px 0px; width:800px;}
+#titles{margin-left:15px;width:100%;margin-right:0px;}
+#rightColumn, #leftColumn, #HutilityBar{display:none;}
+#footer {visibility:visible;}
+#footertext {left:10px}
+#toolkit {display:none;}
+#bodyContent{clear:both;}
+#rate_article{display:none}
+
+/*print out urls of links 
+#bodyContent a:link:after, #bodyContent a:visited:after {
+   content: " (" attr(href) ") ";
+			font-size:90%;
+   }
+#bodyContent a[href^="/"]:after {
+   content: " (http://wwwin.cisco.com" attr(href) ") ";
+   }
+*/
+
+
+

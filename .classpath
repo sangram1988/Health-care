@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.springsource.sts.ide.tomcat.runtimeTarget/VMware vFabric tc Server Developer Edition (Runtime) v2.9">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/thirdparty">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/antlr-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/hibernate-commons-annotations-4.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/hibernate-core-4.3.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/hibernate-validator-4.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/jboss-logging-3.1.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sangram/Desktop/Project/New folder/Healthcare/Healthcare/ThirdpartyLib/mysql-connector-java-5.1.11-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 8.0/lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 8.0/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

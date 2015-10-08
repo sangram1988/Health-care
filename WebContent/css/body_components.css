@@ -1,0 +1,278 @@
+/********************************/
+/* #302 News Author with Byline */		
+/********************************/
+#exectPhotos{clear:both; padding:0px 0px 0px 0px;}
+ 		.execPicture {padding:10px;float:left;/*height:95px;width:200px;*/height:auto; width:auto;border:0px solid black;}
+    .execPicture img {clear:both;padding-bottom:3px; border:0px; text-decoration:none;width:42px; height:54px;}
+
+/*********************************************************/
+/* #308 & #309 Picture enlarge and media hilight         */
+/*********************************************************/
+.newsArticleModule_r IMG {position:relative}
+.newsArticleModule_r .caption {margin-bottom:8px; position:relative}
+.newsArticleModule_r .caption IMG.enlarge, .newsArticleModule_r .caption IMG.media  {position:absolute; right:0px; margin:-25px -7px 0px 0px; padding:0px; width:32px; height:25px; background:url('../images/picture_enlarge.gif') 0 0 no-repeat;z-index:3; }
+.newsArticleModule_r .caption IMG.media{background:url('../images/picture_media.gif') 0 0 no-repeat;z-index:3; }
+
+/***************************************************/
+/* #305 & 307 Picture with caption multimedia link */
+/***************************************************/
+.picturecaption_l A.captionmovie, .picturecaption_l A.captionflash, .picturecaption_r A.captionmovie, .picturecaption_r A.captionflash {display:block;background: url('../images/icon_movie.gif') 100% 2px no-repeat;padding:2px 18px 0px 0px; margin-bottom:20px}
+.picturecaption_l A.captionflash, .picturecaption_r A.captionflash {background-image:url('../images/icon_swf.gif'); background-position:100% 2px;}
+
+/*************/
+/* #310 Note */
+/*************/
+.note {background-color:#DDE4F2;border:1px solid #000; padding:10px; width:50%; clear:left;}
+ .note UL {margin:0px;padding:0px;}
+
+/**********************/
+/* #311 & #312 Alerts */
+/**********************/
+#alertBlue {width:50%; clear:both; padding:0px;margin-bottom:20px;}
+	#alertTopBlueBar{width:100%; height:7px;background:#369 url('../images/alert_ticks.gif') top left repeat-y;margin:0px;padding:0px;}
+	#alertBlueContent{border:1px solid #369; border-left:7px solid #369;padding:10px;border-top:0px;background-color:#FFC}
+	
+#alertRed {width:50%; clear:both; padding:0px;margin-bottom:20px;position:relative;}
+	#alertTopRedBar{width:100%; height:7px;background:#900 url('../images/alert_ticks.gif') top left repeat-y;margin:0px;padding:0px;}
+	#alertRedContent{border:1px solid #900; border-left:7px solid #900;padding:10px;border-top:0px;background-color:#FFC}
+
+/************************************/
+/* #321 & #322 & #323 & 330 Feature */
+/* see also the header styles below */		
+/************************************/
+#hiLightModule {padding:0px 0px 10px 0px; background-color:#EAEBE9;margin-bottom:20px;}
+#hiLightModule H2.yellow {margin-top:0px;}
+/*#hiLightModule .subhead2 {padding:0px 0px 0px 10px;}*/
+	
+/**************/
+/* #342 & 343 */		
+/**************/
+/*#feedback { background-color:#066; margin:15px 0px 5px 0px; padding:2px 0px 2px 10px; color:#FFF; font-weight:bold; text-decoration: none;}*/
+#feedback, #pollitem, #additionalitems {margin:20px 0px 0px 0px;}
+ #feedback .byline, #pollitem .byline {margin:5px 0px 10px 0px;}
+ #feedback FORM, #pollitem FORM {margin-top:5px;}
+	#feedback DIV.module {background-color:#FFF;}
+		DIV.module a.modulecontent {display:block; padding-top:5px;}		
+  #additionalitemtitle, #polltitle{background-color:#69C; margin:0px; padding:2px 0px 2px 10px; color:#FFF; font-weight:bold; text-decoration: none; border-bottom:2px solid #FFF;}
+		#additionalitems H3.blue, #feedback H3.green, #pollitem H3.blue {margin:0px 0px 5px 0px;}		
+  #additionalitemlinks, #pollcontent{margin-left:10px;background-color:#FFF;}
+		
+/*********************/
+/* #320 & 343 & #345 */		
+/*********************/
+#relateditems, #announcements {margin:0px 0px 20px 0px; padding-bottom:8px; background:#FFC;position:relative;}
+#relateditems H3.black, #announcements H3.black {margin-top:0px}
+	#relatedtitle{background-color:#996; padding:2px 0px 2px 10px; color:#FFF; text-decoration: none; font-weight:bold;}
+	.relatedlinks {background: url('../images/graydots.gif') bottom repeat-x;padding:0px 0px 5px 0px; margin:0px 10px 5px 10px;position:relative;}
+.relatedlinks UL, #additionalitemlinks UL {list-style: square outside url('../images/bullet_small.gif'); font-weight: normal; margin:0px 0px 0em 1.5em; padding-left:0; vertical-align:text-bottom;}
+	/*#announcements .relatedlinks UL {list-style-type:none; list-style-image:none; margin:0px 0px 0em 0em;}*/
+	#relateditems UL LI, #announcements UL LI, #additionalitems UL LI {margin:0px 0px 2px 0px;border:0px solid red;}
+	#announcements DIV.relatedlinks A.modulecontentboldlink {padding-top:3px;border:0px solid red;display:block;/*adds padding to first entry if that entry is a bold link*/}
+
+/*****************************************/
+/* #394  #376  #388  #389 #366 #367 #368 */
+/*****************************************/
+#featureContent, .featurecontent, #hiLightModuleBlue {margin:0px 0px 20px 0px; padding:0px 0px 10px 0px; background:#DDE4F2 left top no-repeat; z-index:2; width:auto; vertical-align:top; position:relative;}
+DIV#featurecontent[style], DIV.featurecontent[style], DIV#hiLightModuleBlue[style] {padding-bottom:0px;} /*for mozilla and firefox or any css2 compliant browser*/
+DIV#featurecontent[style], DIV.featurecontent[style], DIV#hiLightModuleBlue[style] {padding-bottom:10px;} /*for mozilla and firefox or any css2 compliant browser*/
+#featureContent .BCHeader, #featureContent H2, .featurecontent .BCHeader, .featurecontent H2, .featurecontent H2.blue, #hiLightModuleBlue H2, #hiLightModuleBlue H2.blue {margin-top:0px;}
+.module H3.newssubhead {margin-top:0px;}
+#featureContent #featureExecInfo, .featurecontent #featureExecInfo, #hiLightModuleBlue #featureExecInfo {position:relative;bottom:0px;left:188px;padding:5px 0px 5px 0px;vertical-align:top;margin-top:20px;}
+/* added for component library */
+ 	/*#featureContent>.module {min-height:188px} doesn't work in IE, when it does component #378 needs the height removed*/
+		
+/*************************/
+/* #392 - also in IE.css */				
+/*************************/
+ .sectionNav {position:relative; width:100%; clear:both; margin-bottom:20px; min-height:65px;/*height:65px;max-height:auto;*/}
+ .sectionNav IMG.picture_l {padding:0px; margin:0px 10px 0px 0px;}
+	.sectionNav .horizontalgraydots {height:10px; background: url('../images/graydots.gif') 0 0 repeat-x; padding:0px; margin:0px; border:0px solid red; overflow:hidden}
+ .sectionNav .sectionNavRight {float:right; width:49.5%; padding-top:10px; background:url('../images/graydots.gif') 0 0 repeat-x; margin-bottom:20px;}
+ .sectionNav	.sectionNavLeft {float:left; width:49%; padding-top:10px; background:url('../images/graydots.gif') 0 0 repeat-x;  margin-bottom:20px;}	
+ .sectionNav	.sectionNavLeft UL, .sectionNav	.sectionNavRight UL, .sectionNav UL {list-style: square outside url('../images/bullet_small.gif'); font-weight: normal; margin:0px 0px 0em 85px; padding-left:0; vertical-align:text-bottom; }
+					.sectionNavigation UL LI, .sectionNavLeft UL LI, .sectionNavRight UL LI, .sectionNav UL LI {margin:0px 0px 2px 0px;}
+	 A.orgnavheading, A.orgnavheading:link { font-weight:bold; margin-bottom:5px; padding:0px; display:block;}
+		
+
+
+/* section nav for Cisco U*/
+.list_sectionNav {position:relative; width:100%;}
+.list_sectionNav .rightColumn {position:relative; margin-left:125px; padding-left:25px; padding-right:5px;}
+.list_sectionNav .leftColumn {float:left; margin-right:1px; min-width:15%; width:120px;}
+
+
+/***************/
+/* #393 & #394 */				
+/***************/
+
+ .twoColumn_component {position:relative; width:100%;} /*removed clear:all because when nesting 2c_component it screws it up */
+  .twoColumn_component .rightColumn {float:right; top:0px; width:49.5%; z-index:1;} /*removed clear:left because when nesting 2c_component it screws it up */
+  .twoColumn_component .leftColumn, .twoColumn_component .leftColumn_separator {position:relative; top:0px; left:0px;margin-right:51%;z-index:2;}
+		.twoColumn_component .leftColumn_separator {background: url('../images/bluedots.gif') right top repeat-y;padding-right:5px;}
+
+/*New twoColumn component CSS*/
+.twoColumn_component_new {position:relative; width:100%;}
+ .twoColum_component_new .rightColumn {position:relative; z-index:1; margin-left:4px; width:49%;}
+ .twoColumn_component_new .leftColumn, .twoColumn_component .leftColumn_separator {float:left; width:49%; margin-right:1px; z-index:2;}
+ .twoColumn_component_new .leftColumn_separator {background: url('../images/bluedots.gif') right top repeat-y;padding-right:5px;}
+	 
+/*********************************/
+/* #396 & 397 Topics On This Page*/
+/*********************************/
+#onThisPageFloat {float:right;padding-right:16px;padding-left:15px;background-color:#FFF;z-index:2;}
+#bodyContent #onThisPageFloat {float:right;padding-right:0px;padding-left:15px;background-color:#FFF; z-index:100;}
+ #onThisPage_RC, #onThisPage{ top:0px; width:180px; max-width:180px; overflow:hidden;margin:0px; padding:10px 2px 10px 0px; border:1px solid #666; background-color:#FFFFFF;}
+	 #onThisPage_RC{max-width:188px;width:auto;margin-bottom:20px;}
+	 #onThisPage_RC .subhead2gray, #onThisPage .subhead2gray {padding:0px 0px 0px 10px;}
+				UL.onthispagelist, #onthisPage UL, #onThisPage_RC UL{margin:0px 0px 0em 2.3em;}
+		UL.onthispagelist LI A, #onthisPage UL LI A, #onThisPage_RC UL LI A {margin-left:-5px;}
+		
+/*******************/
+/* 401 World Clock */
+/*******************/
+INPUT.globaltime { color: #000; background-color: #fff; border-style: outset; border-width: 0px; border-color: #ffffff; width:60px;border:0px solid black;}
+	.timezone, .timezonelast {float:left; margin-right:5px;height:35px; background: url('../images/graydots.gif') 100% 0% repeat-y; width:auto; border:0px solid black;padding-right:5px;}
+	.timezonelast {background:none;}
+
+/***************************************/
+/* #414, 413, 412  Article Pull Quote  */
+/* DIV.pullquote:first-letter          */
+/* {font-size:36px;} could use this if */ 
+/* it worked  - see IE.css             */
+/***************************************/
+.pullquote, .pullquote-portrait, #portrait { margin-bottom:20px; padding:10px; background-color:#DDE4F2; font-family:Times New Roman, Times, serif; line-height:1.15em; color: #666; font-weight:bold; display:block;}
+  .pullquote DIV.modulecontent, .pullquote-portrait DIV.modulecontent {font-family: Arial, Helvetica, sans-serif; line-height:1.3em; font-weight:normal; margin-top:10px; width:auto; position:relative; margin-left:50%}
+		.pullquote-portrait DIV.modulecontent {background:url('../images/graydots.gif') 0% 0% repeat-x; padding-top:10px; margin-top:10px;min-height:96px; }
+/* for 412 */
+#portrait {font-family:Arial, Helvetica, sans-serif;}
+			#portrait DIV.modulecontent {background-image:none; min-height:96px; padding-top:0px; }
+			#portrait .picture_l, .pullquote .picture_l, .pullquote-portrait .picture_l {padding:0px 1em 0px 0px; }
+/* end 412 */			
+  .largequoteclose { height:15px; width:17px;background: url('../images/largequoteclose.gif')  no-repeat; margin:5px;line-height:1.1;}
+  .largequoteopen { height:15px; width:17px;background: url('../images/largequoteopen.gif')  no-repeat; margin:5px;line-height:1.1;}
+	
+
+/***************************************/
+/* #415 & 416 Article Pull Bullet List */
+/* uses IE.css                         */
+/***************************************/
+
+#pullbulletlist {margin-bottom:20px; background-color:#DDE4f2; padding:10px;}
+ DIV#pullbulletlist UL.noindent LI A.movie, DIV#pullbulletlist UL.noindent LI A.flash, DIV#pullbulletlist UL.noindent LI A.audio  {display:block;background: url('../images/icon_movie.gif') 100% 2px no-repeat;padding:2px 18px 0px 0px;}
+	 DIV#pullbulletlist UL.noindent LI A.flash {background-image:url('../images/icon_swf.gif');}
+  DIV#pullbulletlist UL.noindent LI A.audio {background-image:url('../images/icon_audio.gif');}
+
+/********/
+/* Tabs */
+/********/
+
+/* only do the even number tabs, if margin is applied to all tabs then middle tabs will have extra spacing. */
+/*#tab2, #tab4, #tab6, #tab8{margin:0px 2px 0px 2px;}*/
+
+A.activeTab, A.activeTab:link {display:block; float:left; white-space:nowrap; background:#036 url('../images/corner_ur_6.gif') right top no-repeat;color:#FFF; padding:3px 10px 3px 10px; text-decoration:none;height:17px; margin: 0px 2px 0px 0px}
+A.activeTab:visited  {display:block; float:left; white-space:nowrap; background:#036 url('../images/corner_ur_6.gif') right top no-repeat; color:#FFF; padding:3px 10px 3px 10px; text-decoration:none;height:17px; margin: 0px 2px 0px 0px}
+A.activeTab:hover {display:block; float:left; white-space:nowrap; background:#036 url('../images/corner_ur_6.gif') right top no-repeat;color:#FFF; padding:3px 10px 3px 10px; text-decoration:none;height:17px; margin: 0px 2px 0px 0px}
+A.inactiveTab, A.inactiveTab:link  {display:block; float:left; white-space:nowrap; background:#369 url('../images/corner_ur_6.gif') right top no-repeat; color:#FFF; padding:3px 10px 2px 10px; border-bottom:1px solid #FFF; text-decoration:none;height:16px; margin: 0px 2px 0px 0px}
+A.inactiveTab:visited  {display:block; float:left; white-space:nowrap; background:#369 url('../images/corner_ur_6.gif') right top no-repeat; color:#FFF; padding:3px 10px 2px 10px; border-bottom:1px solid #FFF; text-decoration:none;height:16px; margin: 0px 2px 0px 0px}
+A.inactiveTab:hover{background:#036 url('../images/corner_ur_6.gif') right top no-repeat;color:#FFF;text-decoration:none;height:16px; margin: 0px 2px 0px 0px}
+A.inactiveTab:visited:hover{background:#036 url('../images/corner_ur_6.gif') right top no-repeat;color:#FFF;text-decoration:none;height:16px; margin: 0px 2px 0px 0px}
+A.disabledTab {display:block; float:left; white-space:nowrap; background:#ccc url('../images/corner_ur_6.gif') right top no-repeat;color:#000; padding:3px 10px 2px 10px; border-bottom:1px solid #FFF; text-decoration:none;height:16px; margin: 0px 2px 0px 0px}
+A.disabledTab:hover {display:block; float:left; white-space:nowrap; background:#ccc url('../images/corner_ur_6.gif') right top no-repeat;color:#000; padding:3px 10px 2px 10px; border-bottom:1px solid #FFF; text-decoration:none;height:16px; margin: 0px 2px 0px 0px}
+
+/********************************/
+/* 700 Primary Application Tabs */
+/********************************/
+#newsTabHolder {position:relative}
+#primaryAppNavigation {position:relative; height:22px; border-bottom:2px solid #036; width:100%; padding:0px; margin:10px 0px 10px 0px;}
+ #newsTabHolder #primaryAppNavigation {margin:0px;}
+	.tabContentInactive {display:none;}
+	.tabContentActive {display:block;}
+
+/**********************************/
+/* 715 Secondary Application Tabs */
+/**********************************/
+DIV#secondaryAppNavigation {border-bottom:2px solid #369;margin-bottom:20px;position:relative;padding:4px;}
+#secondaryAppNavigation UL {display:inline;margin-left:10px;}
+#secondaryAppNavigation UL LI, #secondaryAppNavigation UL LI.inactiveTab {list-style:none; display:inline; padding:3px 10px;margin-right:2px; border-left:1px solid #369; border-bottom:0px solid #FFF; background:#FFF url('../images/secondary_tab_bkgrnd.gif') right top no-repeat;}
+#secondaryAppNavigation UL LI A {border:0px;margin:0px;padding:0px;text-decoration:none;color:#000}
+#secondaryAppNavigation UL LI.activeTab{background-color:#ffc; border-bottom:3px solid #FFc}
+#secondaryAppNavigation UL LI.hoverTab{background-color:#ffc; border-bottom:1px solid #FFF}
+#secondaryAppNavigation UL LI.activeTab A, #secondaryAppNavigation UL LI.disabledTab A {cursor:default}
+#secondaryAppNavigation UL LI.disabledTab A {color:#ccc}
+
+
+/*************************************/
+/* 710 Application Steps, whole page */
+/*************************************/
+#appsteps{visibility: hidden; display: none; height: 1px; width: 1px; overflow: none;}
+.appstepshoriz{ position: relative; display: inline; top: 0px; border: 0px solid blue; width: auto; height: 20px; margin-right:37px;}
+.appstephidden{position: relative; top: -5px; left: -8px; width: 25px; height:25px; border: 0px solid red; display: block;}
+
+.appstepcurrent, a.appstepcurrent, a.appstepcurrent:hover, a.appstepcurrent:visited, a.appstepcurrent:active{text-decoration: none; font-family: arial; font-weight: bold; color: #000;}
+.appstepcomplete, a.appstepcomplete, a.appstepcomplete:hover, a.appstepcomplete:visited, a.appstepcomplete:active{text-decoration: none; font-family: arial; font-weight: bold;color: #336693;}
+.appstepincomplete, a.appstepincomplete, a.appstepincomplete:hover, a.appstepincomplete:visited, a.appstepincomplete:active{text-decoration: none; font-family: arial; font-weight: bold;color: #ccc;}
+a.appstepincomplete:hover, a.appstepcomplete:hover{text-decoration: underline;}
+.appstepnumber, .appstepnumber:hover, .appstepnumber:visited, .appstepnumber:active{top:0px; margin-left:7%; margin-top:2px; z-index: 5; border: 0px solid red; position: absolute; color: #fff; font-weight: bold; font-family: arial; text-decoration: none;}
+.appstepnumber_v, .appstepnumber_v:hover, .appstepnumber_v:visited, .appstepnumber_v:active{left: 7px; margin-top: 8%; z-index: 5; border: 0px solid red; position: absolute; color: #fff; font-weight: bold; font-family: arial; text-decoration: none;}
+TD.tablecontent .appstepnumber,TD.tablecontent .appstepnumber:hover,TD.tablecontent .appstepnumber:visited,TD.tablecontent .appstepnumber:active{top: 4px; margin-left:7%; margin-top:2px; z-index: 5; border: 0px solid red; position: absolute; color: #fff; font-weight: bold; font-family: arial; text-decoration: none;}
+
+
+/***********************/
+/* Component Alignment */
+/***********************/
+.bluemodule_l, .bluemodule_r {background-color:#DDE4f2;float:left; margin:10px 10px 10px 0px;width:33%;padding:10px;}
+.bluemodule_r {float:right; margin:10px 0px 10px 10px;}
+#alignLeft, .newsArticleModule_l {margin:2px 10px 10px 0px; float:left; width:auto; padding:0px;}
+#alignRight, .newsArticleModule_r {margin:2px 0px 10px 10px; float:right; padding:0px;}
+.newsArticleModule_r, .newsArticleModule_l {background-color:#FFF; width:188px; max-width:188px;}
+/*.newsArticleModule_l .pullquote {position:relative;}*/
+.picturecaption_l, IMG.picture_l, .picture_l {margin:0px; padding:.2em 2em 2em 0px; float:left;}
+.featurecontent .picturecaption_l,#hiLightModuleBlue .picturecaption_l {padding:.2em 2em 0px 0px} /*for blue modules using images */
+.picturecaption_r, IMG.picture_r, .picture_r {margin:0px; padding:.2em 0px 2em 1em; float:right; border:0px solid black;}
+.featurecontent .picturecaption_r,#hiLightModuleBlue .picturecaption_r {padding:.2em 2em 0px 0px} /*for blue modules using images */
+.newsArticleModule_r .caption {display:block; margin-bottom:20px;}
+.newsArticleModule_r .picturecaption_r, .newsArticleModule_r .picturecaption_l {position:relative; padding:0px;}
+
+#newsTabWrapper{position: relative; height: 17px; z-index: 100;}
+#newsTabs {position: absolute; height: 17px;}
+#newsTabImages{position: absolute; top: 0px; height: 17px; width: 317px;}
+/* #newsModule{position:relative;border-top:3px solid #036;}
+#newsArticles{position: relative; width:auto; border-top:1px solid #DDE4F2;} taken out by sgardner - new news layout */
+
+/****************/
+/* Customer Sat */
+/****************/
+#custsat {position:relative; width:100%;margin-top:2px;}
+#custsatrow1, #custsatrow2 {position:relative;height:14px;margin-bottom:2px;padding-bottom:3px;}
+.custsatcolfirst {width:33%;float:left;}
+.custsatcol {width:33%; float:left;}
+/* for the cust sat website */
+		#custsat {width:95%}
+		#custsatrow1{background:url('../images/graydots.gif') left bottom repeat-x; padding-bottom:3px;}
+		.custsatrightcol {width:25%; float:left;font-weight:bold}
+		.custsatleftcol {width:75%; float:left;}
+		.custsatleftcol .grayout {font-weight:bold}			
+
+/*********************/
+/* header treatments */
+/*********************/
+ H2.blue, .blue, .green, H2.green, .gray, H2.gray, .yellow, H2.yellow, .black {position:relative; margin:20px 0px 10px 0px;background-color:#69C; font-weight: bold;text-decoration: none; z-index:10;padding:2px 0px 2px 10px;background-image:url('../images/s.gif')}
+ H2.ticks, .ticks, H2.ticks .first, .ticks .first{background-image: url('../images/corner-pipes.gif'); background-repeat:repeat-y;background-position:right;width:auto;z-index:10;}
+ .yellow, H2.yellow {background-color:#FC6;}
+	.green, H2.green {background-color:#366;}
+	.gray, H2.gray {background-color:#999;}
+	.black {background-color:#000;}
+ H2.first {margin-top:0px;} /*  re-enforce the margin for the cacasde */	
+	H2.overlap {margin-right:215px;}
+	
+/********************************************/
+/* for backwards compatibility with 2.1 css */	
+/********************************************/	
+
+/***************/
+/* #393 & #394 */				
+/***************/
+#2c_component{position:relative; width:100%;} /*removed clear:all because when nesting 2c_component it screws it up */
+  #2c_rightColumn{float:right; top:0px; width:49.5%; z-index:1;} /*removed clear:left because when nesting 2c_component it screws it up */
+		#2c_leftColumn, #2c_leftColumn_separator {position:relative; top:0px; left:0px;margin-right:51%;z-index:2;}
+		#2c_leftColumn_separator{background: url('../images/images_cec_common_2/bluedots.gif') right top repeat-y;padding-right:5px;}

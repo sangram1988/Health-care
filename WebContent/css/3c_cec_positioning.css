@@ -1,0 +1,13 @@
+/* CSS Document */
+/* CENTER COLUMN */
+#centerColumn{margin-right:204px;}
+	#bodyContent{min-width:250px;}
+#rightColumn{position:absolute; right:16px; width:188px; max-width:188px; overflow:hidden; margin:25px 0px 0px 15px; background-color:#FFF; z-index:2; clear:both;}
+ #rightColumn FORM {position:relative; top:0px; left:0px;z-index:100;}
+	#rightColumn FORM SELECT, #rightColumn FORM SELECT OPTION, #rightColumn FORM INPUT {width:160px; max-width:168px;}
+/*  #relateditems { margin-top:0px;} */
+ 
+/* #relateditems {position:relative; margin:0px 0px 20px 0px; padding-bottom:8px; background:#FFC;border:0px solid black;}
+	#rightColumn #relateditems, #rightColumn #hiLightHeader, #rightColumn #announcements {margin-top:0px;}*/
+	#relatedtitle{background-color:#996; padding:2px 0px 2px 10px; color:#FFF; text-decoration: none; font-weight:bold;}
+#rightColumn DIV.first,	.first {margin-top:0px;}
